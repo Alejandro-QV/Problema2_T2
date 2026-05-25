@@ -8,3 +8,7 @@ lista = [2, 4, 6, 3]
 
 pi = int(input("Ingrese PI: "))
 pf = int(input("Ingrese PF: "))
+
+resultado = suma_recursiva(lista, pi, pf)
+
+print("Resultado:", resultado)
