@@ -1,9 +1,9 @@
 def suma_recursiva(lista, pi, pf):
 
-    if pi > pf:
+    if pi > pf or pi >= len(lista):
         return 0
-    
-        return lista[pi] + suma_recursiva(lista, pi + 1, pf)
+
+    return lista[pi] + suma_recursiva(lista, pi + 1, pf)
 lista = [2, 4, 6, 3]
 
 pi = int(input("Ingrese PI: "))
