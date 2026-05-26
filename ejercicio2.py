@@ -15,6 +15,9 @@ for i in range(n):
 pi = int(input("Ingrese PI: "))
 pf = int(input("Ingrese PF: "))
 
+if pi > pf:
+    pi, pf = pf, pi
+
 resultado = suma_recursiva(lista, pi, pf)
 
 print("Resultado:", resultado)
